@@ -5,7 +5,6 @@ body {
   background: steelblue;
   font-size:100%;
 }
-
 /* Header/Blog Title */
 .header {
   padding: 10px;
@@ -24,7 +23,6 @@ h2.Results{
   width: 75%;
   border-radius:0.5em;
 }
-
 /* Right column */
 .rightcolumn {
   float: left;
@@ -32,7 +30,6 @@ h2.Results{
   padding-left:5px;
   border-radius:0.5em;
 }
-
 /* images */
 .imgs {
   background-color: white;
@@ -40,7 +37,6 @@ h2.Results{
   height:auto;
   
 }
-
 figure img{
 	max-height:10%;
 	max-width:30%;
@@ -71,7 +67,6 @@ figure{
 .sidebar figure{
 	width:auto;
 	margin:0;
-	
 }
 /* Add a card effect for articles */
 .card {
@@ -80,14 +75,12 @@ figure{
   margin-top: 20px;
   border-radius:0.5em;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Footer */
 .footer {
   padding: 20px;
@@ -96,15 +89,14 @@ figure{
   margin-top: 20px;
   border-radius:0.5em;
 }
-
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
-  
-  figure img{
+  /* This adjust the images in ech post to size with the smaller screen*/
+  figure img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -113,7 +105,8 @@ figure{
 	max-width:90%;
 	
   }
-  .sidebar figure img{
+  /* Adjust the profile picture size with screen size*/
+  .sidebar figure img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -122,10 +115,13 @@ figure{
 	max-width:90%;
 	
   }
+  /*Bigger font for the smaller screen*/
 	body {
 	font-size:120%;
 	}  
 }
+
+
 /*START CUSTOM STYLES*/
 ul.bar {
   list-style-type: none;
@@ -135,11 +131,11 @@ ul.bar {
   background-color: #333;
   border-radius:0.5em;
 }
-
+/*Mades the nav bar go to the left*/
 .bar li {
   float: left;
 }
-
+/* make each element of nav bar a certain size*/
 .bar li a {
   display: block;
   color: white;
@@ -152,11 +148,12 @@ ul.bar {
 .bar li a:hover {
   background-color: #111;
 }
+
 .title{
 	padding: 1em;
-	font-size:2em;
-	
+	font-size:2em;	
 }
+
 h3{
 	margin:0;
 	font-size:80%;

@@ -4,7 +4,6 @@
   float: left;
   width: 100%;
 }
-
 /* Right column */
 .rightcolumn {
   float: left;
@@ -12,14 +11,12 @@
   padding-left: 0.5em;
   display:none;
 }
-
 /* Add a card effect for articles */
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -27,7 +24,6 @@
   clear: both;
 }
 /*START CUSTOM STYLES*/
-
 div.card ul {
 	margin-left: 20px
 }

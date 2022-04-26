@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-/* Right column */
+/* Right column modified to not appear on this page*/
 .rightcolumn {
   float: left;
   width: 0%;
@@ -38,6 +38,5 @@ ol.results {
 }
 .results li a{
 	text-decoration: none;
-	
 }
 	
