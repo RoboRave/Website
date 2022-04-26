@@ -1,0 +1,33 @@
+/*Version 2.1*/
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 0%;
+  padding-left: 0.5em;
+  display:none;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*START CUSTOM STYLES*/
+
+div.card ul {
+	margin-left: 20px
+}

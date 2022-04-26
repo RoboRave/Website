@@ -1,0 +1,43 @@
+/*Version 2.2*/
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 0%;
+  padding-left: 0.5em;
+  display:none;
+}
+/*START CUSTOM STYLES*/
+
+.card ul {
+	margin-left: 20px;
+}
+.about{
+	font-size:1em;
+}
+h3{
+	margin:0;
+	font-size:80%;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+.captions{
+	color:gray;
+}
+ol.results {
+	padding-left:auto;
+	padding-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+}
+.results li a{
+	text-decoration: none;
+	
+}
+	
