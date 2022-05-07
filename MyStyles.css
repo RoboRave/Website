@@ -89,13 +89,14 @@ figure{
   margin-top: 20px;
   border-radius:0.5em;
 }
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, */
+/*make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
-  /* This adjust the images in ech post to size with the smaller screen*/
+  /* This adjust the images in each post to size with the smaller screen*/
   figure img {
 	display: block;
 	margin-left: auto;
@@ -103,7 +104,6 @@ figure{
 	width: auto;
 	max-height:10em;
 	max-width:90%;
-	
   }
   /* Adjust the profile picture size with screen size*/
   .sidebar figure img {
