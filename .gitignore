@@ -1,2 +1,3 @@
-media/NASCAR/docs/
-media\NASCAR\pics\
+
+**/*.jpg
+**/*.psd
